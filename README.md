@@ -31,6 +31,24 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 ## Projeto
 
 O Personal Card é um componente que exibe um resumo das informações profissionais, e direciona para posterior contato através das redes sociais.
+### Requisitos funcionais
+
+- Usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
+- Usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
+- Usuário poderá exportar o cartão em formato PDF ou PNG.
+
+## Desenvolvimento
+### Sprint 1: Construção do cartão padrão
+Inicio: 24/10/2022 | Fim: 31/10/2022
+
+**Tarefas**
+- [x] Inicializar projeto
+  - [x] Configurar arquivos iniciais e instalar dependências
+  - [x] Construir README
+- [ ] Criar componente Heading contendo foto, nome e cargo
+- [ ] Criar componente Main contendo informações sobre a pessoa do cartão
+- [ ] Criar componente Skills contendo ícones representantes das habilidades
+- [ ] Criar componente Contact com ícones representantes dos contatos
 
 ## Layout
 
