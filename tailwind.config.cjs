@@ -24,7 +24,6 @@ module.exports = {
       md: 16,
       lg: 20,
       xl: 32,
-
     },
     extend: {
       fontFamily: {
