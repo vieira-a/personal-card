@@ -2,6 +2,8 @@ import './styles/global.css'
 import Text from "./components/Text";
 import Photo from './components/Photo';
 import About from './components/About';
+import Separator from './components/Separator';
+import Skills from './components/Skills';
 
 export default function App() {
   const myName = "Anderson Vieira";
@@ -17,6 +19,8 @@ export default function App() {
       </header>
       <main className='mx-6 mb-6 rounded bg-stone-800'>
         <About/>
+        <Separator/>
+        <Skills/>
       </main>
     </div>
   )

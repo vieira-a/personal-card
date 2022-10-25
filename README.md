@@ -46,7 +46,7 @@ Inicio: 24/10/2022 | Fim: 31/10/2022
   - [x] Configurar arquivos iniciais e instalar dependências
   - [x] Construir README
 - [x] Criar componente Header contendo foto, nome e cargo
-- [ ] Criar componente Main contendo informações sobre a pessoa do cartão
+- [x] Criar componente Main contendo informações sobre a pessoa do cartão
 - [ ] Criar componente Skills contendo ícones representantes das habilidades
 - [ ] Criar componente Contact com ícones representantes dos contatos
 
