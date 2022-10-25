@@ -1,7 +1,7 @@
 <h1 align="center"> Personal Card </h1>
 
 <p align="center">
-Projeto pessoal para praticar conhecimentos adquiridos.
+Projeto pessoal para praticar conhecimentos adquiridos em React JS.
 </p>
 
 <p align="center">
@@ -33,9 +33,9 @@ Esse projeto será desenvolvido com as seguintes tecnologias:
 O Personal Card é um componente que exibe um resumo das informações profissionais, e direciona para posterior contato através das redes sociais.
 ### Requisitos funcionais
 
-- Usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
-- Usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
-- Usuário poderá exportar o cartão em formato PDF ou PNG.
+- O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
+- O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
+- O usuário poderá exportar o cartão em formato PDF ou PNG.
 
 ## Desenvolvimento
 ### Sprint 1: Construção do cartão padrão
