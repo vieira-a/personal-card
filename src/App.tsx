@@ -4,6 +4,7 @@ import Photo from './components/Photo';
 import About from './components/About';
 import Separator from './components/Separator';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 export default function App() {
   const myName = "Anderson Vieira";
@@ -11,8 +12,8 @@ export default function App() {
   const photoSrc = 'https://avatars.githubusercontent.com/u/65618765?v=4';
 
   return (
-    <div className='w-screen h-screen bg-stone-900'>
-      <header className='flex flex-col items-center pt-10 pb-8 w-screen'>
+    <div className='w-auto h-screen bg-stone-900'>
+      <header className='flex flex-col items-center pt-10 pb-8'>
         <Photo src={photoSrc}></Photo>
         <Text className='text-stone-200 text-xl font-semibold mt-6'>{myName}</Text>
         <Text className='text-cyan-500 text-lg font-semibold'>{myProf}</Text>
@@ -21,6 +22,8 @@ export default function App() {
         <About/>
         <Separator/>
         <Skills/>
+        <Separator/>
+        <Contact/>
       </main>
     </div>
   )

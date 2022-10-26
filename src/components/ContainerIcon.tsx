@@ -5,7 +5,7 @@ export interface ContainerIconProps {
 
 export default function ContainerIcon ({icon}: ContainerIconProps) {
   return (
-    <div className="w-12 h-12 rounded bg-stone-900 flex items-center justify-center">
+    <div className="w-12 h-12 rounded bg-stone-900 flex items-center justify-center cursor-pointer hover:border border-cyan-500">
       {icon}
     </div>
   )

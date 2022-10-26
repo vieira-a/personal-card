@@ -1,8 +1,8 @@
 import ContainerIcon from "./ContainerIcon";
-import ReactIcon from "./ReactIcon";
-import JsIcon from "./JsIcon";
-import TsIcon from "./TsIcon";
-import SassIcon from "./SassIcon";
+import ReactIcon from "./icons/ReactIcon";
+import JsIcon from "./icons/JsIcon";
+import TsIcon from "./icons/TsIcon";
+import SassIcon from "./icons/SassIcon";
 import Text from "./Text";
 
 export default function Skills () {
