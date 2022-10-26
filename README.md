@@ -14,7 +14,7 @@ Projeto pessoal para praticar conhecimentos adquiridos em React JS.
 <br>
 
 <p align="center">
-  <img alt="personalcard" src=".github/cover.png" width="100%">
+  <img alt="personalcard" src=".github/bg-cover.png" width="100%">
 </p>
 
 ## Tecnologias
