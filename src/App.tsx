@@ -12,8 +12,8 @@ export default function App() {
   const photoSrc = 'https://avatars.githubusercontent.com/u/65618765?v=4';
 
   return (
-    <div className='w-auto h-screen bg-stone-900'>
-      <header className='flex flex-col items-center pt-10 pb-8'>
+    <div className='bg-stone-900 py-10'>
+      <header className='flex flex-col items-center pb-8'>
         <Photo src={photoSrc}></Photo>
         <Text className='text-stone-200 text-xl font-semibold mt-6'>{myName}</Text>
         <Text className='text-cyan-500 text-lg font-semibold'>{myProf}</Text>
