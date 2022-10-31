@@ -5,6 +5,7 @@ import About from './components/About';
 import Separator from './components/Separator';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import ButtonCardCreate from './components/ButtonCardCreate';
 
 export default function App() {
   const myName = "Anderson Vieira";
@@ -24,6 +25,13 @@ export default function App() {
         <Skills/>
         <Separator/>
         <Contact/>
+        <Separator/>
+        <div className='text-center py-8'>
+          <ButtonCardCreate>
+            <Text className='text-stone-200 font-semibold text-md'>Criar seu cartão</Text>
+          </ButtonCardCreate>
+        </div>
+        
       </main>
     </div>
   )
