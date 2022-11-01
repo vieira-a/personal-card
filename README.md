@@ -50,6 +50,12 @@ Inicio: 24/10/2022 | Fim: 31/10/2022
 - [x] Criar componente Skills contendo ícones representantes das habilidades
 - [x] Criar componente Contact com ícones representantes dos contatos
 
+### Sprint 2: Construção do cartão padrão
+Inicio: 31/10/2022 | Fim: 07/11/2022
+
+**Tarefas**
+- [x] Criar componentes de formulário para entrada de dados do usuário
+
 ## Layout
 
 Utilizei o Figma para construção dos componentes e montagem do layout .
