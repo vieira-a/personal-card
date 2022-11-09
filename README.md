@@ -56,6 +56,13 @@ Inicio: 31/10/2022 | Fim: 07/11/2022
 **Tarefas**
 - [x] Criar componentes de formulário para entrada de dados do usuário
 
+### Sprint 3: Construção do cartão padrão
+Inicio: 07/11/2022 | Fim: 14/11/2022
+
+- [x] Separar componentes CardDefault (cartão padrão) e CardCreate (cartão criado pelo usuário)
+- [ ] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado
+- [ ] Criar funções para armazenar dados de entrada e gerar cartão customizado
+
 ## Layout
 
 Utilizei o Figma para construção dos componentes e montagem do layout .
