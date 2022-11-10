@@ -60,6 +60,7 @@ Inicio: 31/10/2022 | Fim: 07/11/2022
 Inicio: 07/11/2022 | Fim: 14/11/2022
 
 - [x] Separar componentes CardDefault (cartão padrão) e CardCreate (cartão criado pelo usuário)
+- [x] Criar componente multi seletor para que o usuário possa selecionar suas skills
 - [ ] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado
 - [ ] Criar funções para armazenar dados de entrada e gerar cartão customizado
 

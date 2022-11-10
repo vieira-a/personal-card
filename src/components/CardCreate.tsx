@@ -2,6 +2,7 @@ import Text from "./Text";
 import ButtonCardCreate from './ButtonCardCreate';
 import Input from './Input';
 import PhotoIcon from './icons/PhotoIcon';
+import SkillSelect from "./SkillSelect";
 
 export default function CardCreate () {
   return (
@@ -31,11 +32,10 @@ export default function CardCreate () {
               <Text>Sobre</Text>
             </label>
             <textarea className='bg-stone-900 pl-4 py-4 my-3 w-full' rows={3} cols={42} placeholder='Fale um pouco sobre você'></textarea>
-            
-            <label htmlFor="skills">
+            <label htmlFor="skills" >
               <Text>Suas habilidades</Text>
             </label>
-            <Input type='text' name='skills' id='skills' placeholder='Selecione até 4 habilidades'></Input>
+              <SkillSelect />
             <div className='mt-12'>
               <ButtonCardCreate>
               <Text className='font-semibold text-md'>Gerar cartão</Text>
