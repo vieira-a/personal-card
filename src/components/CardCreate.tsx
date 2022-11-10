@@ -31,9 +31,9 @@ export default function CardCreate () {
             <label htmlFor="about">
               <Text>Sobre</Text>
             </label>
-            <textarea className='bg-stone-900 pl-4 py-4 my-3 w-full' rows={3} cols={42} placeholder='Fale um pouco sobre você'></textarea>
+            <textarea className='bg-stone-900 pl-4 py-4 my-3 w-full rounded' rows={3} cols={42} placeholder='Fale um pouco sobre você'></textarea>
             <label htmlFor="skills" >
-              <Text>Suas habilidades</Text>
+              <Text>Selecione até 4 habilidades</Text>
             </label>
               <SkillSelect />
             <div className='mt-12'>
