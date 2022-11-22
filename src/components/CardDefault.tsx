@@ -25,11 +25,6 @@ export default function CardDefault() {
         <Separator/>
         <Contact/>
         <Separator/>
-        <div className='text-center py-8'>
-          <ButtonCardCreate>
-            <Text className='font-semibold text-md'>Criar seu cartão</Text>
-          </ButtonCardCreate>
-        </div>
       </div>
     </main>
   )

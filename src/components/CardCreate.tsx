@@ -5,6 +5,9 @@ import PhotoIcon from './icons/PhotoIcon';
 import SkillSelect from "./SkillSelect";
 
 export default function CardCreate () {
+  const handleCardCreate = () => {
+    return
+  }
   return (
     <section className='mx-6 px-3 py-8 rounded bg-stone-800 border-2 border-cyan-500'>
         <header className='text-center mb-12'>
