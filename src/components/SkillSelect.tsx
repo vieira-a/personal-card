@@ -31,13 +31,13 @@ const names = [
 
 export default function SkillSelect() {
 
-  const [personName, setPersonName] = React.useState<string[]>([]);
+  const [skillName, setSkillName] = React.useState<string[]>([]);
 
-  const handleChange = (event: SelectChangeEvent<typeof personName>) => {
+  const handleChange = (event: SelectChangeEvent<typeof skillName>) => {
     const {
       target: { value },
     } = event;
-    setPersonName(
+    setSkillName(
       typeof value === 'string' ? value.split(',') : value,
     );
   };
@@ -54,14 +54,14 @@ export default function SkillSelect() {
           labelId="demo-multiple-checkbox-label"
           id="demo-multiple-chip"
           multiple
-          value={personName}
+          value={skillName}
           onChange={handleChange}
           renderValue={(selected) => selected.join(', ')}
           MenuProps={MenuProps}
         >
           {names.map((name) => (
             <MenuItem key={name} value={name}>
-              <Checkbox checked={personName.indexOf(name) > -1} 
+              <Checkbox checked={skillName.indexOf(name) > -1} 
               sx={{ color:'#E7E5E4'}}
               />
               <ListItemText primary={name}
