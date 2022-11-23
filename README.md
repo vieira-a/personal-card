@@ -61,7 +61,7 @@ Inicio: 07/11/2022 | Fim: 14/11/2022
 
 - [x] Separar componentes CardDefault (cartão padrão) e CardCreate (cartão criado pelo usuário)
 - [x] Criar componente multi seletor para que o usuário possa selecionar suas skills
-- [ ] 
+
 ### Sprint 4: Construção do cartão padrão
 Inicio: 21/11/2022 | Fim: 28/11/2022
 - [x] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado

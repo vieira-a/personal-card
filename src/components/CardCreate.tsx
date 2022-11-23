@@ -3,13 +3,12 @@ import ButtonCardCreate from './ButtonCardCreate';
 import Input from './Input';
 import PhotoIcon from './icons/PhotoIcon';
 import SkillSelect from "./SkillSelect";
+import { useState } from "react";
 
 export default function CardCreate () {
-  const handleCardCreate = () => {
-    return
-  }
+  
   return (
-    <section className='mx-6 px-3 py-8 rounded bg-stone-800 border-2 border-cyan-500'>
+    <section className='mx-6 px-3 py-4 rounded bg-stone-800 border-2 border-cyan-500'>
         <header className='text-center mb-12'>
           <Text className='text-lg font-semibold'>Preencha os dados e crie o seu próprio cartão!</Text>
         </header>
