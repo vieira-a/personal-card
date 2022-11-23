@@ -65,6 +65,7 @@ Inicio: 07/11/2022 | Fim: 14/11/2022
 ### Sprint 4: Construção do cartão padrão
 Inicio: 21/11/2022 | Fim: 28/11/2022
 - [x] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado
+- [x] Implementar botão para fechar a criação de novo cartão e retornar ao cartão padrão
 - [ ] Criar funções para armazenar dados de entrada e gerar cartão customizado
 
 ## Layout
