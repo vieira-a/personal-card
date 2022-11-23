@@ -3,7 +3,6 @@ import ButtonCardCreate from './ButtonCardCreate';
 import Input from './Input';
 import PhotoIcon from './icons/PhotoIcon';
 import SkillSelect from "./SkillSelect";
-import { useState } from "react";
 
 export default function CardCreate () {
   
