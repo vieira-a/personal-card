@@ -3,9 +3,24 @@ import ButtonCardCreate from './ButtonCardCreate';
 import Input from './Input';
 import PhotoIcon from './icons/PhotoIcon';
 import SkillSelect from "./SkillSelect";
+import { useState } from "react";
 
 export default function CardCreate () {
   
+  /**
+   * A ideia é criar componentes novos com dados recebidos através de props;
+   * Todos os componentes que irão compor o PersonalCard, receberão as props e serão montados com os dados;
+   * Novos componentes: PersonalCardHeader, PersonalCardSkills
+   */
+  const personalCardData = [{
+
+  }]
+
+
+  //Data Header
+  const [personalPhoto, setPersonalPhoto] = useState()
+
+
   return (
     <section className='mx-6 px-3 py-4 rounded bg-stone-800 border-2 border-cyan-500'>
         <header className='text-center mb-12'>
