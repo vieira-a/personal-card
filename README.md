@@ -66,8 +66,14 @@ Inicio: 07/11/2022 | Fim: 14/11/2022
 Inicio: 21/11/2022 | Fim: 28/11/2022
 - [x] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado
 - [x] Implementar botão para fechar a criação de novo cartão e retornar ao cartão padrão
+
+### Sprint 5: Construção do cartão padrão
+Inicio: 28/11/2022 | Fim: 05/12/2022
 - [ ] Criar funções para armazenar dados de entrada e gerar cartão customizado
 
+A ideia é criar componentes novos com dados recebidos através de props;
+Todos os componentes que irão compor o PersonalCard, receberão as props e serão montados com os dados;
+Os icones das habilidades devem ser montados pelas imagens dos icones, de acordo com a seleção feita pelo usuário.
 ## Layout
 
 Utilizei o Figma para construção dos componentes e montagem do layout .

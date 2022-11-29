@@ -7,11 +7,6 @@ import { useState } from "react";
 
 export default function CardCreate () {
   
-  /**
-   * A ideia é criar componentes novos com dados recebidos através de props;
-   * Todos os componentes que irão compor o PersonalCard, receberão as props e serão montados com os dados;
-   * Novos componentes: PersonalCardHeader, PersonalCardSkills
-   */
   const personalCardData = [{
 
   }]
