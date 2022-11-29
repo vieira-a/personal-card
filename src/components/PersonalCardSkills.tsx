@@ -5,7 +5,7 @@ import TsIcon from "./icons/TsIcon";
 import SassIcon from "./icons/SassIcon";
 import Text from "./Text";
 
-export default function Skills () {
+export default function PersonalCardSkills () {
   return (
     <div className="text-center py-6">
       <Text className="text-cyan-500 text-md font-semibold">Habilidades</Text>

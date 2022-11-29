@@ -3,7 +3,7 @@ import ContainerIcon from "./ContainerIcon";
 import GhIcon from "./icons/GhIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
 
-export default function Contact () {
+export default function PersonalCardContact () {
   return (
     <div className="text-center py-6">
       <Text className="text-cyan-500 text-md font-semibold">Contato</Text>
