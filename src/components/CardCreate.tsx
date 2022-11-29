@@ -43,10 +43,23 @@ export default function CardCreate () {
               <Text>Sobre</Text>
             </label>
             <textarea className='bg-stone-900 pl-4 py-4 my-3 w-full rounded' rows={3} cols={42} placeholder='Fale um pouco sobre você'></textarea>
+            
             <label htmlFor="skills" >
               <Text>Selecione até 4 habilidades</Text>
             </label>
               <SkillSelect />
+            <div className="social-networks my-3">
+              <label htmlFor="social-linkedin">
+              <Text>LinkedIn</Text>
+              </label>
+              <Input type='text' name='social-linkedin' id='social-linkedin' placeholder='Cole aqui o link para o seu LinkedIn'>
+              </Input>  
+              <label htmlFor="social-github">
+              <Text>GitHub</Text>
+              </label>
+              <Input type='text' name='social-github' id='social-github' placeholder='Cole aqui o link para o seu LinkedIn'>
+              </Input>  
+            </div>
             <div className='mt-12'>
               <ButtonCardCreate>
               <Text className='font-semibold text-md'>Gerar cartão</Text>
