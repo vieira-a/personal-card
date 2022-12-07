@@ -6,9 +6,9 @@ import { useState } from 'react';
 
 import './styles/global.css'
 import ButtonClose from './components/ButtonClose';
+import PersonalCard from './components/PersonalCard';
 
 export default function App() {
-    
   const pages = [
     {
       'id': 0,
@@ -17,6 +17,10 @@ export default function App() {
     {
       'id': 1,
       'name': 'cardCreate'
+    },
+    {
+      'id': 3,
+      'name': 'personalCard'
     }
   ]
   
@@ -24,6 +28,8 @@ export default function App() {
   const handlePage = () => {
     if(page === 'cardDefault'){
       setPage(pages[1].name)
+    } else if(page === 'cardCreate'){ 
+      setPage(pages[2].name)
     } else {
       setPage(pages[0].name)
     }
@@ -31,6 +37,7 @@ export default function App() {
   
   return (
     <div className='bg-stone-900 py-10'>
+      {page === 'personalCard' && <PersonalCard />}
       {page === 'cardDefault' && <CardDefault />}
       {page === 'cardDefault' && 
       <div className='text-center py-8'>
@@ -44,11 +51,9 @@ export default function App() {
           <div className='flex justify-end mx-4 mb-4 cursor-pointer'>
             <ButtonClose onClick={handlePage} />
           </div>
-          <CardCreate/>  
+          <CardCreate handlePage={handlePage}/>  
         </div>
         }
-      
-        
     </div>
   )
 }
