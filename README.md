@@ -69,11 +69,33 @@ Inicio: 21/11/2022 | Fim: 28/11/2022
 
 ### Sprint 5: Construção do cartão padrão
 Inicio: 28/11/2022 | Fim: 05/12/2022
-- [ ] Criar funções para armazenar dados de entrada e gerar cartão customizado
+- [x] Criar funções para armazenar dados de entrada e gerar cartão customizado
 
 A ideia é criar componentes novos com dados recebidos através de props;
 Todos os componentes que irão compor o PersonalCard, receberão as props e serão montados com os dados;
 Os icones das habilidades devem ser montados pelas imagens dos icones, de acordo com a seleção feita pelo usuário.
+
+### Sprint 6: Mudanças na arquitetura da aplicação
+Inicio: 05/12/2022 | Fim: 12/12/2022
+
+Até aqui durante o desenvolvimento, me deparei com a seguinte questão:
+
+*Como manipular os dados inseridos pelo usuário ao criar um novo cartão, de modo renderizar o cartão padrão com as novas informaçõe?*
+
+Lembrando que a ideia original é mostrar o cartão principal; caso usuário deseje criar o seu próprio cartão, um outro componente será mostrado com os campos a serem preenchidos, enquanto que o cartão padrão deixa de ser mostrado temporariamente. Após preencher os campos, ao clicar em gerar cartão, o cartão padrão é exibido com as novas informações.
+
+A solução que encontrei não parecia natural nem performática; consegui apenas a renderização condicional dos componentes, porém, não consegui manipular os dados entre os componentes. Poderia fazê-lo via props, mas a complexidade seria ainda maior.
+
+Buscando uma maneira de simplificar, estudando a documentação do React, percebi que o mesmo possui a função [Context API](https://reactjs.org/docs/context.html), utilizada para transportar dados entre os componentes.
+
+Após estudar sobre o tema, criei um projeto [react-context-api](https://github.com/vieira-a/react-context-api) para aplicar o conhecimento, simulando a aplicação a este projeto. Agora devo aplicar ao TypeScript.
+
+[x] Criar arquivo de contexto contendo as informações do cartão padrão;
+[ ] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
+[ ] Criar um custom hook para manipular a renderização dos componentes:
+  [ ] Ao clicar na opção para criar novo cartão, deve-se abrir o formulário para preenchimento;
+  [ ] Ao clicar em gerar cartão, o PersonalCard deve ser exibido com as informações alteradas.
+
 ## Layout
 
 Utilizei o Figma para construção dos componentes e montagem do layout .
