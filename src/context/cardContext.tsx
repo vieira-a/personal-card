@@ -20,7 +20,7 @@ export const CardContextProvider = ({children}: CardContextProps) => {
   const [personalCard, setPersonalCard] = useState(cardData);
 
   return(
-    <CardContext.Provider value={{personalCard, setPersonalCard}}>
+    <CardContext.Provider value={{cardData, personalCard, setPersonalCard}}>
       {children}
     </CardContext.Provider>
   )
