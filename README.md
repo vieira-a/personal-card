@@ -103,7 +103,7 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
 
   Para tanto, é necessário:
   - [ ] Adquirir imagens de outras skills além das que já existem;
-  - [x] Configurar o array de habilidades para mostrar objetos de habilidades que contenham nome e imagem.
+  - [x] Preparar funções para criar a skill dinamicamente de acordo com o selecionado pelo usuário.
 
   - [ ] Componente Contact
 
