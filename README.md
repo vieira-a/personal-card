@@ -92,6 +92,10 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
 
 - [x] Criar arquivo de contexto contendo as informações do cartão padrão;
 - [ ] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
+  - [x] Componente Header
+  - [ ] Componente About
+  - [ ] Componente Skills
+  - [ ] Componente Contact
 - [ ] Criar um custom hook para manipular a renderização dos componentes:
   - [ ] Ao clicar na opção para criar novo cartão, deve-se abrir o formulário para preenchimento;
   - [ ] Ao clicar em gerar cartão, o PersonalCard deve ser exibido com as informações alteradas.
