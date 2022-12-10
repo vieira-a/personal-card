@@ -4,8 +4,13 @@ import JsIcon from "./icons/JsIcon";
 import TsIcon from "./icons/TsIcon";
 import SassIcon from "./icons/SassIcon";
 import Text from "./Text";
+import { useContext } from "react";
+import { CardContext } from "../context/cardContext";
 
 export default function Skills () {
+
+  const {personalCard}: any = {} = useContext(CardContext)
+
   return (
     <div className="text-center py-6">
       <Text className="text-cyan-500 text-md font-semibold">Habilidades</Text>

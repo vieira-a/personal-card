@@ -93,9 +93,23 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
 - [x] Criar arquivo de contexto contendo as informações do cartão padrão;
 - [ ] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
   - [x] Componente Header
-  - [ ] Componente About
-  - [ ] Componente Skills
+  - [x] Componente About
+  - [ ] Componente Skills    
+
+  *Sobre o componente Skills:*
+
+  Ao criar um novo cartão, por padrão o usuário poderá optar por até 4 habilidades. Atualmente, a aplicação renderiza o componente ContainerIcon, contendo os ícones das habilidades, que é composto pelas imagens de cada uma delas.
+  Esta função de escolha será um ComboBox, no qual o usuário poderá marcar as opções desejadas. A ideia é fazer com que a aplicação use a escolha do usuário como referência para "setar" a imagem e montar o ícone dentro do ContainerIcon.
+
+  Para tanto, é necessário:
+  - [ ] Adquirir imagens de outras skills além das que já existem;
+  - [x] Configurar o array de habilidades para mostrar objetos de habilidades que contenham nome e imagem.
+
   - [ ] Componente Contact
+
+*Sobre o componente Contact:*
+O processo de geração do icone será semelhante ao do componente Skills, porém, será estático, contendo as imagens padrão. A propriedade que será alterada pelo usuário é o endereço HTTP para acesso a sua rede social.
+
 - [ ] Criar um custom hook para manipular a renderização dos componentes:
   - [ ] Ao clicar na opção para criar novo cartão, deve-se abrir o formulário para preenchimento;
   - [ ] Ao clicar em gerar cartão, o PersonalCard deve ser exibido com as informações alteradas.
