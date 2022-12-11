@@ -1,20 +1,21 @@
-import PersonalCardHeader from "./PersonalCardHeader"
-import PersonalCardAbout from "./PersonalCardAbout"
-import PersonalCardSkills from "./PersonalCardSkills";
-import PersonalCardContact from "./PersonalCardContact";
+//Components
+import Header from "./Header";
+import About from "./About";
+import Skills from "./Skills";
+import Contact from "./Contact";
 import Separator from './Separator';
 
 export default function PersonalCard() {
   return (
     <main>
-      <PersonalCardHeader/>
+      <Header/>
       <div className='mx-6 mb-6 rounded bg-stone-800'>
-        <PersonalCardAbout/>
-        <Separator/>
-        <PersonalCardSkills/>
-        <Separator/>
-        <PersonalCardContact/>
-        <Separator/>
+      <About/>
+      <Separator/>
+      <Skills/>
+      <Separator/>
+      <Contact/>
+      <Separator/>
       </div>
     </main>
   )

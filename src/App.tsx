@@ -1,35 +1,34 @@
-import CardDefault from './components/CardDefault';
+//CSS
+import './styles/global.css'
+
+//Components
+import PersonalCard from './components/PersonalCard';
 import CardCreate from './components/CardCreate';
-import ButtonCardCreate from './components/ButtonCardCreate';
 import Text from './components/Text';
+import Button from './components/Button';
+import ButtonClose from './components/ButtonClose';
+
+//Hooks
 import { useState } from 'react';
 
-import './styles/global.css'
-import ButtonClose from './components/ButtonClose';
-import PersonalCard from './components/PersonalCard';
-
 export default function App() {
+  
   const pages = [
     {
       'id': 0,
-      'name': 'cardDefault'
+      'name': 'personalCard'
     },
     {
       'id': 1,
       'name': 'cardCreate'
     },
-    {
-      'id': 3,
-      'name': 'personalCard'
-    }
   ]
   
   const [page, setPage] = useState(pages[0].name)
+
   const handlePage = () => {
-    if(page === 'cardDefault'){
+    if(page === 'personalCard'){
       setPage(pages[1].name)
-    } else if(page === 'cardCreate'){ 
-      setPage(pages[2].name)
     } else {
       setPage(pages[0].name)
     }
@@ -38,22 +37,19 @@ export default function App() {
   return (
     <div className='bg-stone-900 py-10'>
       {page === 'personalCard' && <PersonalCard />}
-      {page === 'cardDefault' && <CardDefault />}
-      {page === 'cardDefault' && 
+      {page === 'personalCard' && 
       <div className='text-center py-8'>
-        <ButtonCardCreate onClick={handlePage}>
+        <Button onClick={handlePage} >
           <Text className='font-semibold text-md'>Criar seu cartão</Text>
-        </ButtonCardCreate>
+        </Button>
       </div>}
-      
-        {page === 'cardCreate' && 
-        <div>
-          <div className='flex justify-end mx-4 mb-4 cursor-pointer'>
-            <ButtonClose onClick={handlePage} />
-          </div>
-          <CardCreate handlePage={handlePage}/>  
+      {page === 'cardCreate' && 
+      <main className='mx-6 px-3 py-4 rounded bg-stone-800 border-2 border-cyan-500'>
+        <div className='flex justify-end mx-4 mb-4 cursor-pointer'>
+          <ButtonClose onClick={handlePage} />
         </div>
-        }
+        <CardCreate />
+      </main>}
     </div>
   )
 }
