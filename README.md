@@ -59,16 +59,21 @@ Inicio: 31/10/2022 | Fim: 07/11/2022
 ### Sprint 3: Construção do cartão padrão
 Inicio: 07/11/2022 | Fim: 14/11/2022
 
+**Tarefas**
 - [x] Separar componentes CardDefault (cartão padrão) e CardCreate (cartão criado pelo usuário)
 - [x] Criar componente multi seletor para que o usuário possa selecionar suas skills
 
 ### Sprint 4: Construção do cartão padrão
 Inicio: 21/11/2022 | Fim: 28/11/2022
+
+**Tarefas**
 - [x] Fazer com que o form inicialize escondido e surja em formato de modal quando o botão "Criar seu cartão" for acionado
 - [x] Implementar botão para fechar a criação de novo cartão e retornar ao cartão padrão
 
 ### Sprint 5: Construção do cartão padrão
 Inicio: 28/11/2022 | Fim: 05/12/2022
+
+**Tarefas**
 - [x] Criar funções para armazenar dados de entrada e gerar cartão customizado
 
 A ideia é criar componentes novos com dados recebidos através de props;
@@ -90,11 +95,18 @@ Buscando uma maneira de simplificar, estudando a documentação do React, perceb
 
 Após estudar sobre o tema, criei um projeto [react-context-api](https://github.com/vieira-a/react-context-api) para aplicar o conhecimento, simulando a aplicação a este projeto. Agora devo aplicar ao TypeScript.
 
+Além disso, precisei encontrar uma meneira adicional e mais organizada para renderização condicional de componentes utilizando hook customizado.
+
+**Tarefas**
 - [x] Criar arquivo de contexto contendo as informações do cartão padrão;
 - [ ] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
   - [x] Componente Header
   - [x] Componente About
-  - [ ] Componente Skills    
+  - [x] Componente Skills    
+  - [x] Componente Contact 
+- [ ] Criar um custom hook para manipular a renderização dos componentes:
+  - [ ] Ao clicar na opção para criar novo cartão, deve-se abrir o formulário para preenchimento;
+  - [ ] Ao clicar em gerar cartão, o PersonalCard deve ser exibido com as informações alteradas.
 
   *Sobre o componente Skills:*
 
@@ -105,14 +117,8 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
   - [ ] Adquirir imagens de outras skills além das que já existem;
   - [x] Preparar funções para criar a skill dinamicamente de acordo com o selecionado pelo usuário.
 
-  - [ ] Componente Contact
-
 *Sobre o componente Contact:*
 O processo de geração do icone será semelhante ao do componente Skills, porém, será estático, contendo as imagens padrão. A propriedade que será alterada pelo usuário é o endereço HTTP para acesso a sua rede social.
-
-- [ ] Criar um custom hook para manipular a renderização dos componentes:
-  - [ ] Ao clicar na opção para criar novo cartão, deve-se abrir o formulário para preenchimento;
-  - [ ] Ao clicar em gerar cartão, o PersonalCard deve ser exibido com as informações alteradas.
 
 ## Layout
 
