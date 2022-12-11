@@ -1,12 +1,14 @@
+import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
+import { ImgHTMLAttributes, ReactHTMLElement } from "react";
+
 export interface ContainerIconProps {
-  icon?: React.ReactNode;
-  children?: string;
+  children?: ReactJSXElement;
 }
 
-export default function ContainerIcon ({icon}: ContainerIconProps) {
+export default function ContainerIcon ({children}: ContainerIconProps) {
   return (
     <div className="w-12 h-12 rounded bg-stone-900 flex items-center justify-center cursor-pointer hover:border border-cyan-500">
-      {icon}
+      {children}
     </div>
   )
 }

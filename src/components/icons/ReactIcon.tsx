@@ -9,7 +9,6 @@ export default function ReactIcon () {
     return (item === "react")
   })
 
-  console.log(skill)
   return (
     <img src={`${skill}.svg`} alt="React JS" />
   )

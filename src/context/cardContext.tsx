@@ -13,8 +13,8 @@ export const CardContextProvider = ({children}: CardContextProps) => {
     name: "Anderson Vieira",
     occupation: "Desenvolvedor Frontend",
     about: "Apaixonado por tecnologia, sou Desenvolvedor Frontend com background em Gerenciamento de Serviços e Infraestrutura de TI.",
-    skills: ["javaScript", "typeScript", "react", "aass"],
-    social: ["LinkedIn", "GitHub"]
+    skills: ["python", "typeScript", "react", "sass"],
+    social: ["linkedin", "github"]
   };
 
   const [personalCard, setPersonalCard] = useState(cardData);
