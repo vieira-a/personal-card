@@ -122,20 +122,20 @@ Durante o desenvolvimento das novas funções utilizando Context API, percebi qu
 
   Para tanto, é necessário:
   - [x] Preparar funções para criar a skill dinamicamente de acordo com o selecionado pelo usuário.
-  - [ ] Adicionar outras skills além das que já existem;
-    - [ ] Linguagens de programação
+  - [x] Adicionar outras skills além das que já existem;
+    - [x] Linguagens de programação
       - [x] Python
-      - [ ] Java
-      - [ ] C#
-      - [ ] C++
-      - [ ] Node JS
-      - [ ] Ruby
-      - [ ] PHP
+      - [x] Java
+      - [x] Node JS
+      - [x] Ruby
+      - [x] PHP
+      - [x] HTML
+      - [x] CSS
     - [ ] Bancos de dados
-      - [ ] Microsoft SQL Server
-      - [ ] PostgreSQL
-      - [ ] MySQL
-      - [ ] MongoDB
+      - [x] Microsoft SQL Server
+      - [x] PostgreSQL
+      - [x] MySQL
+      - [x] MongoDB
 
 *Sobre o componente Contact:*
 O processo de geração do icone será semelhante ao do componente Skills, porém, será estático, contendo as imagens padrão. A propriedade que será alterada pelo usuário é o endereço HTTP para acesso a sua rede social.

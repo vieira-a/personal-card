@@ -24,12 +24,18 @@ const MenuProps = {
 };
 
 const names = [
-  'react',
+  'html',
+  'css',
   'javascript',
+  'react',
   'typescript',
   'sass',
+  'python',
   'java',
-  'python'
+  'sqlserver',
+  'postgres',
+  'mysql',
+  'mongodb'
 ];
 
 export default function SkillSelect() {
