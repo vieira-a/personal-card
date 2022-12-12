@@ -13,7 +13,8 @@ interface CardCreateProps {
 
 export default function CardCreate ({handlePage}: CardCreateProps) {
 
-  const {setPersonalCard}: any = {} = useContext(CardContext);
+  const {personalCard, setPersonalCard}: any = {} = useContext(CardContext);
+  const { cardSocial, setCardSocial }: any = {} = useContext(CardContext)
 
   const handleChange = (event: any) => {
     setPersonalCard((prev: any) => {
@@ -52,14 +53,13 @@ export default function CardCreate ({handlePage}: CardCreateProps) {
           <SkillSelect />
         <div className="social-networks my-3">
           <label htmlFor="linkedin">
-          <Text>LinkedIn</Text>
+            <Text>LinkedIn</Text>
           </label>
-          <Input onChange={handleChange} type='text' name='linkedin' id='linkedin' placeholder='Cole aqui o link para o seu LinkedIn'>
-          </Input>  
+            <Input onChange={handleChange} type='text' name="linkedin" id='linkedin' placeholder='Cole aqui o link para o seu LinkedIn'></Input>  
           <label htmlFor="github">
           <Text>GitHub</Text>
           </label>
-          <Input onChange={handleChange} type='text' name='github' id='github' placeholder='Cole aqui o link para o seu LinkedIn'>
+          <Input onChange={handleChange} type='text' name="github" id='github' placeholder='Cole aqui o link para o seu LinkedIn'>
           </Input>  
         </div>
       </form>

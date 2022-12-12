@@ -7,7 +7,6 @@ export default function Header() {
 
   //Only shows, dont edit
   const {personalCard}: any = {} = useContext(CardContext)
-  console.log(`Nome no componente Header: ${personalCard.name}`)
 
   return (
     <header className='flex flex-col items-center pb-8'>

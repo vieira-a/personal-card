@@ -7,6 +7,9 @@ import ListItemText from '@mui/material/ListItemText';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import Checkbox from '@mui/material/Checkbox';
 
+import { useContext } from "react";
+import { CardContext } from "../context/cardContext";
+
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
 const MenuProps = {
@@ -21,15 +24,18 @@ const MenuProps = {
 };
 
 const names = [
-  'React',
-  'Javascript',
-  'Typescript',
-  'Sass',
-  'Java',
-  'Python'
+  'react',
+  'javascript',
+  'typescript',
+  'sass',
+  'java',
+  'python'
 ];
 
 export default function SkillSelect() {
+
+  //const {personalCard, setPersonalCard}: any = {} = useContext(CardContext);
+  const {cardSkills, setCardSkills}: any = {} = useContext(CardContext);
 
   const [skillName, setSkillName] = React.useState<string[]>([]);
 
@@ -37,11 +43,14 @@ export default function SkillSelect() {
     const {
       target: { value },
     } = event;
-    setSkillName(
-      typeof value === 'string' ? value.split(',') : value,
-    );
+    setSkillName(typeof value === 'string' ? value.split(',') : value);
+    return
   };
-  
+
+  const updateSkill = () => {
+    setCardSkills(skillName)
+  }
+
   return (
     <div>
       <FormControl 
@@ -56,6 +65,7 @@ export default function SkillSelect() {
           multiple
           value={skillName}
           onChange={handleChange}
+          onMouseOut={updateSkill}
           renderValue={(selected) => selected.join(', ')}
           MenuProps={MenuProps}
         >

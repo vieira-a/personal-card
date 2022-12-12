@@ -1,26 +1,24 @@
 import Text from "./Text";
 import ContainerIcon from "./ContainerIcon";
-import GhIcon from "./icons/GhIcon";
-import LinkedinIcon from "./icons/LinkedinIcon";
 import { useContext } from "react";
 import { CardContext } from "../context/cardContext";
 
 export default function Contact () {
 
-  const {personalCard}: any = {} = useContext(CardContext)
-
+  const { personalCard, setPersonalCard }: any = {} = useContext(CardContext)
+  
   return (
     <div className="text-center py-6">
       <Text className="text-cyan-500 text-md font-semibold">Contato</Text>
       <div className="flex items-center justify-center gap-3 mx-auto py-6">
         <ContainerIcon>
-          <a href="https://www.linkedin.com" target="blank">
-            <img src={`${personalCard.social[0]}.svg`} alt={personalCard.social[0]} />
+          <a href={`${personalCard.linkedin}`}>
+            <img src={`linkedin.svg`} alt={personalCard.linkedin} />
           </a>
         </ContainerIcon>
         <ContainerIcon>
-          <a href="https://www.github.com" target="blank">
-            <img src={`${personalCard.social[1]}.svg`} alt={personalCard.social[1]} />
+          <a href={`${personalCard.github}`}>
+            <img src={`github.svg`} alt={personalCard.github} />
           </a>
         </ContainerIcon>
       </div>
