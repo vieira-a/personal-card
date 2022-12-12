@@ -8,7 +8,7 @@ export interface CardContextProps {
 
 export const CardContextProvider = ({children}: CardContextProps) => {
   
-  const skillsData = ["javascript", "typeScript", "react", "sass"];
+  const skillsData = ["javascript", "typescript", "react", "sass"];
 
   const cardData = {
     photoSrc: "https://avatars.githubusercontent.com/u/65618765?v=4",
