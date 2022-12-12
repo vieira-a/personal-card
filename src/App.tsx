@@ -49,6 +49,11 @@ export default function App() {
           <ButtonClose onClick={handlePage} />
         </div>
         <CardCreate />
+        <div className='mt-12 text-center'>
+          <Button onClick={handlePage}>
+            <Text className='font-semibold text-md'>Gerar cartão</Text>
+          </Button>
+        </div>
       </main>}
     </div>
   )

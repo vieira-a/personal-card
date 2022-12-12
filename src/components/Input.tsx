@@ -4,7 +4,7 @@ export interface InputProps {
   id?: string;
   placeholder?: string;
   children?: React.ReactNode;
-  onChange?: HTMLElement;
+  onChange?:(event: any) =>void;
 }
 
 export default function Input ( {type, name, id, onChange, placeholder, children}: InputProps) {
@@ -14,7 +14,7 @@ export default function Input ( {type, name, id, onChange, placeholder, children
     type={type} 
     name={name} 
     id={id}
-    placeholder={placeholder}/>
+    placeholder={placeholder} onChange={onChange}/>
     {children}
     </>
   ) 

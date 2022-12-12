@@ -102,10 +102,10 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
   - [x] Componente About
   - [x] Componente Skills    
   - [x] Componente Contact 
-- [ ] Manipulação de dados do contexto no componente CardCreate
-  - [ ] Importar contexto
-  - [ ] Revisar dados dos inputs contidos no CardCreate e alinhá-los em relação aos dados do contexo
-  - [ ] Criar funções para editar dados do contexto.
+- [x] Manipulação de dados do contexto no componente CardCreate
+  - [x] Importar contexto
+  - [x] Revisar dados dos inputs contidos no CardCreate e alinhá-los em relação aos dados do contexo
+  - [x] Criar funções para editar dados do contexto.
 
 *Revisão de componentes*
 Durante o desenvolvimento das novas funções utilizando Context API, percebi que haviam componentes que não seriam mais utilizados, portanto, houve necessidade de removê-los, bem como generalizar componentes já existentes afim de evitar cópias desnecessárias e simplificar a manutenção.
