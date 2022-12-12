@@ -96,12 +96,21 @@ Buscando uma maneira de simplificar, estudando a documentação do React, perceb
 Após estudar sobre o tema, criei um projeto [react-context-api](https://github.com/vieira-a/react-context-api) para aplicar o conhecimento, simulando a aplicação a este projeto. Agora devo aplicar ao TypeScript.
 
 **Tarefas**
-- [x] Criar arquivo de contexto contendo as informações do cartão padrão;
-- [ ] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
+- [x] Criar arquivo de contexto contendo as informações do cartão padrão
+- [x] Importar os dados do contexto para cada subcomponente do PersonalCard (componente principal);
   - [x] Componente Header
   - [x] Componente About
   - [x] Componente Skills    
   - [x] Componente Contact 
+- [ ] Manipulação de dados do contexto no componente CardCreate
+  - [ ] Importar contexto
+  - [ ] Revisar dados dos inputs contidos no CardCreate e alinhá-los em relação aos dados do contexo
+  - [ ] Criar funções para editar dados do contexto.
+
+*Revisão de componentes*
+Durante o desenvolvimento das novas funções utilizando Context API, percebi que haviam componentes que não seriam mais utilizados, portanto, houve necessidade de removê-los, bem como generalizar componentes já existentes afim de evitar cópias desnecessárias e simplificar a manutenção.
+
+**Tarefas**
 - [x] Manutenção/revisão de componentes
   - [x] Criar novo componente Button genérico
   - [x] Excluir componentes obsoletos
@@ -127,7 +136,6 @@ Após estudar sobre o tema, criei um projeto [react-context-api](https://github.
       - [ ] PostgreSQL
       - [ ] MySQL
       - [ ] MongoDB
-
 
 *Sobre o componente Contact:*
 O processo de geração do icone será semelhante ao do componente Skills, porém, será estático, contendo as imagens padrão. A propriedade que será alterada pelo usuário é o endereço HTTP para acesso a sua rede social.
