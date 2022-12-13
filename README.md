@@ -19,23 +19,24 @@ Projeto pessoal para praticar conhecimentos adquiridos em React JS.
 
 ## Tecnologias
 
-Esse projeto será desenvolvido com as seguintes tecnologias:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-- HTML e CSS
-- JavaScript e JSON
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Typescript](https://www.typescriptlang.org/)
+- [React JS](https://pt-br.reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Node e NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
-- [React](https://pt-br.reactjs.org/)
 
 ## Projeto
 
-O Personal Card é um componente que exibe um resumo das informações profissionais, e direciona para posterior contato através das redes sociais.
+O Personal Card é uma aplicação SPA ([Single Page Application](https://en.wikipedia.org/wiki/Single-page_application)) que exibe um resumo das informações profissionais, e direciona para posterior contato através das redes sociais.
 ### Requisitos funcionais
 
-- O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
-- O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
-- O usuário poderá exportar o cartão em formato PDF ou PNG.
+[x] O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
+[x] O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
+[ ] O usuário poderá exportar o cartão em formato PDF ou PNG. (em andamento)
 
 ## Desenvolvimento
 ### Sprint 1: Construção do cartão padrão
@@ -131,7 +132,7 @@ Durante o desenvolvimento das novas funções utilizando Context API, percebi qu
       - [x] PHP
       - [x] HTML
       - [x] CSS
-    - [ ] Bancos de dados
+    - [x] Bancos de dados
       - [x] Microsoft SQL Server
       - [x] PostgreSQL
       - [x] MySQL
@@ -146,7 +147,12 @@ Utilizei o Figma para construção dos componentes e montagem do layout .
 
 ## Aprendizado
 
-Aprimorei meus conhecimentos de Figma para construção de layout organizado através de componentes interativos que simulam sua utilização.
+Aprimorei meus conhecimentos de Figma para construção de layout organizado através de componentes interativos que simulam sua utilização;
+Avancei no entendimento de conceitos do React e utilização de libs acessórias como no caso do seletor múltiplo contido no componente CardCreate;
+Conhecimento e aplicação do [React Context API](https://reactjs.org/docs/context.html);
+Aprimorei conceitos e aplicações de componentização com React JS criando componentes genéricos e reutilizáveis;
+Utilização de TypeScript em todo o projeto;
+Desenvolvimento de pensamento crítico através de revisões constantes do código bem como da arquitetura da aplicação.
 
 ---
 
