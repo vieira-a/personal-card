@@ -34,9 +34,9 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 O Personal Card é uma aplicação SPA ([Single Page Application](https://en.wikipedia.org/wiki/Single-page_application)) que exibe um resumo das informações profissionais, e direciona para posterior contato através das redes sociais.
 ### Requisitos funcionais
 
-[x] O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
-[x] O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
-[ ] O usuário poderá exportar o cartão em formato PDF ou PNG. (em andamento)
+- [x] O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
+- [x] O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
+- [ ] O usuário poderá exportar o cartão em formato PDF ou PNG. (em andamento)
 
 ## Desenvolvimento
 ### Sprint 1: Construção do cartão padrão
