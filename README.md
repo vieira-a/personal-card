@@ -143,16 +143,16 @@ O processo de geração do icone será semelhante ao do componente Skills, poré
 
 ## Layout
 
-Utilizei o Figma para construção dos componentes e montagem do layout .
+Utilizei o Figma para construção dos componentes e montagem do layout.
 
 ## Aprendizado
 
-Aprimorei meus conhecimentos de Figma para construção de layout organizado através de componentes interativos que simulam sua utilização;
-Avancei no entendimento de conceitos do React e utilização de libs acessórias como no caso do seletor múltiplo contido no componente CardCreate;
-Conhecimento e aplicação do [React Context API](https://reactjs.org/docs/context.html);
-Aprimorei conceitos e aplicações de componentização com React JS criando componentes genéricos e reutilizáveis;
-Utilização de TypeScript em todo o projeto;
-Desenvolvimento de pensamento crítico através de revisões constantes do código bem como da arquitetura da aplicação.
+- Aprimorei meus conhecimentos de Figma para construção de layout organizado através de componentes interativos que simulam sua utilização;
+- Avancei no entendimento de conceitos do React e utilização de libs acessórias como no caso do seletor múltiplo contido no componente CardCreate;
+- Conhecimento e aplicação do [React Context API](https://reactjs.org/docs/context.html);
+- Aprimorei conceitos e aplicações de componentização com React JS criando componentes genéricos e reutilizáveis;
+- Utilização de TypeScript em todo o projeto;
+- Desenvolvimento de pensamento crítico através de revisões constantes do código bem como da arquitetura da aplicação.
 
 ---
 
