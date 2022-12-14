@@ -36,7 +36,6 @@ O Personal Card é uma aplicação SPA ([Single Page Application](https://en.wik
 
 - [x] O usuário poderá visualizar um cartão de apresentação padrão conforme especificações de layout;
 - [x] O usuário poderá criar o seu próprio cartão preenchendo um formulário com os requisitos;
-- [ ] O usuário poderá exportar o cartão em formato PDF ou PNG. (em andamento)
 
 ## Desenvolvimento
 ### Sprint 1: Construção do cartão padrão
